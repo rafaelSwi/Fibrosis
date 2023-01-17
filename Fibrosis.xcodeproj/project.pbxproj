@@ -7,18 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3407B782297590C3005077AC /* Struct ExerciseTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3407B781297590C3005077AC /* Struct ExerciseTool.swift */; };
+		3407B78529759698005077AC /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3407B78429759698005077AC /* Session.swift */; };
+		3407B78729759777005077AC /* ManageSessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3407B78629759777005077AC /* ManageSessions.swift */; };
+		3407B789297598E0005077AC /* CreateNewSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3407B788297598E0005077AC /* CreateNewSession.swift */; };
+		3407B78B2975995A005077AC /* Default SubTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3407B78A2975995A005077AC /* Default SubTitle.swift */; };
+		3407B78D297599DA005077AC /* AddToolsToSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3407B78C297599DA005077AC /* AddToolsToSession.swift */; };
+		3407B78F2975ADFA005077AC /* Default Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3407B78E2975ADFA005077AC /* Default Line.swift */; };
+		3445FD3129760F9600F9C46D /* Default ReturnButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3445FD3029760F9600F9C46D /* Default ReturnButton.swift */; };
 		349352B22974AFA4002046FB /* FibrosisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349352B12974AFA4002046FB /* FibrosisApp.swift */; };
-		349352B42974AFA4002046FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349352B32974AFA4002046FB /* ContentView.swift */; };
 		349352B62974AFA7002046FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 349352B52974AFA7002046FB /* Assets.xcassets */; };
 		349352B92974AFA7002046FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 349352B82974AFA7002046FB /* Preview Assets.xcassets */; };
+		349352C12974B0FF002046FB /* Companion Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349352C02974B0FF002046FB /* Companion Logic.swift */; };
+		349352C32974B298002046FB /* AddSnackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349352C22974B298002046FB /* AddSnackView.swift */; };
+		349352C62974B3B8002046FB /* CustomColor Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349352C52974B3B8002046FB /* CustomColor Struct.swift */; };
+		349352C82974B3D7002046FB /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349352C72974B3D7002046FB /* Gradient.swift */; };
+		349352CA2974B485002046FB /* Default Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349352C92974B485002046FB /* Default Background.swift */; };
+		349352CD2974B77A002046FB /* Default Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349352CC2974B77A002046FB /* Default Title.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3407B781297590C3005077AC /* Struct ExerciseTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Struct ExerciseTool.swift"; sourceTree = "<group>"; };
+		3407B78429759698005077AC /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		3407B78629759777005077AC /* ManageSessions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageSessions.swift; sourceTree = "<group>"; };
+		3407B788297598E0005077AC /* CreateNewSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewSession.swift; sourceTree = "<group>"; };
+		3407B78A2975995A005077AC /* Default SubTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Default SubTitle.swift"; sourceTree = "<group>"; };
+		3407B78C297599DA005077AC /* AddToolsToSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToolsToSession.swift; sourceTree = "<group>"; };
+		3407B78E2975ADFA005077AC /* Default Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Default Line.swift"; sourceTree = "<group>"; };
+		3445FD3029760F9600F9C46D /* Default ReturnButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Default ReturnButton.swift"; sourceTree = "<group>"; };
 		349352AE2974AFA4002046FB /* Fibrosis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fibrosis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		349352B12974AFA4002046FB /* FibrosisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibrosisApp.swift; sourceTree = "<group>"; };
-		349352B32974AFA4002046FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		349352B52974AFA7002046FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		349352B82974AFA7002046FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		349352C02974B0FF002046FB /* Companion Logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Companion Logic.swift"; sourceTree = "<group>"; };
+		349352C22974B298002046FB /* AddSnackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSnackView.swift; sourceTree = "<group>"; };
+		349352C52974B3B8002046FB /* CustomColor Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomColor Struct.swift"; sourceTree = "<group>"; };
+		349352C72974B3D7002046FB /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
+		349352C92974B485002046FB /* Default Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Default Background.swift"; sourceTree = "<group>"; };
+		349352CC2974B77A002046FB /* Default Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Default Title.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +58,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3407B780297590B0005077AC /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				3407B7832975964B005077AC /* Exercises Logic */,
+				3407B78629759777005077AC /* ManageSessions.swift */,
+				3407B788297598E0005077AC /* CreateNewSession.swift */,
+				3407B78C297599DA005077AC /* AddToolsToSession.swift */,
+			);
+			path = Exercises;
+			sourceTree = "<group>";
+		};
+		3407B7832975964B005077AC /* Exercises Logic */ = {
+			isa = PBXGroup;
+			children = (
+				3407B781297590C3005077AC /* Struct ExerciseTool.swift */,
+				3407B78429759698005077AC /* Session.swift */,
+			);
+			path = "Exercises Logic";
+			sourceTree = "<group>";
+		};
 		349352A52974AFA3002046FB = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +97,11 @@
 		349352B02974AFA4002046FB /* Fibrosis */ = {
 			isa = PBXGroup;
 			children = (
+				349352CB2974B761002046FB /* Defaults */,
+				349352C42974B3A8002046FB /* Extras */,
+				3407B780297590B0005077AC /* Exercises */,
+				349352BF2974B0DD002046FB /* Companion */,
 				349352B12974AFA4002046FB /* FibrosisApp.swift */,
-				349352B32974AFA4002046FB /* ContentView.swift */,
 				349352B52974AFA7002046FB /* Assets.xcassets */,
 				349352B72974AFA7002046FB /* Preview Content */,
 			);
@@ -65,6 +114,36 @@
 				349352B82974AFA7002046FB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		349352BF2974B0DD002046FB /* Companion */ = {
+			isa = PBXGroup;
+			children = (
+				349352C02974B0FF002046FB /* Companion Logic.swift */,
+				349352C22974B298002046FB /* AddSnackView.swift */,
+			);
+			path = Companion;
+			sourceTree = "<group>";
+		};
+		349352C42974B3A8002046FB /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				349352C52974B3B8002046FB /* CustomColor Struct.swift */,
+				349352C72974B3D7002046FB /* Gradient.swift */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+		349352CB2974B761002046FB /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				349352C92974B485002046FB /* Default Background.swift */,
+				349352CC2974B77A002046FB /* Default Title.swift */,
+				3407B78A2975995A005077AC /* Default SubTitle.swift */,
+				3407B78E2975ADFA005077AC /* Default Line.swift */,
+				3445FD3029760F9600F9C46D /* Default ReturnButton.swift */,
+			);
+			path = Defaults;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +216,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				349352B42974AFA4002046FB /* ContentView.swift in Sources */,
+				3407B78729759777005077AC /* ManageSessions.swift in Sources */,
+				3407B78D297599DA005077AC /* AddToolsToSession.swift in Sources */,
+				3407B78529759698005077AC /* Session.swift in Sources */,
+				3407B782297590C3005077AC /* Struct ExerciseTool.swift in Sources */,
+				349352C62974B3B8002046FB /* CustomColor Struct.swift in Sources */,
+				3445FD3129760F9600F9C46D /* Default ReturnButton.swift in Sources */,
+				349352C32974B298002046FB /* AddSnackView.swift in Sources */,
+				3407B78F2975ADFA005077AC /* Default Line.swift in Sources */,
+				349352CA2974B485002046FB /* Default Background.swift in Sources */,
+				349352C12974B0FF002046FB /* Companion Logic.swift in Sources */,
+				349352CD2974B77A002046FB /* Default Title.swift in Sources */,
 				349352B22974AFA4002046FB /* FibrosisApp.swift in Sources */,
+				3407B78B2975995A005077AC /* Default SubTitle.swift in Sources */,
+				349352C82974B3D7002046FB /* Gradient.swift in Sources */,
+				3407B789297598E0005077AC /* CreateNewSession.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
