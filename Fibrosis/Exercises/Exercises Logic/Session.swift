@@ -16,4 +16,11 @@ class Session: Identifiable, ObservableObject {
     
     @Published var exercises: [Exercise] = []
     
+    init () {}
+    
+    init ( name: String, exercises: [Exercise] ) {
+        self.name = name
+        self.exercises = exercises
+    }
+    
 }

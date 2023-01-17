@@ -2,6 +2,8 @@ import SwiftUI
 
 struct CreateNewSession: View {
     
+    @Environment (\.presentationMode) var presentationMode
+    
     @ObservedObject var newSession: Session
     
     func ableToAppend () -> Bool {
@@ -81,12 +83,21 @@ struct CreateNewSession: View {
                 Spacer()
                 
                 Button (action: {
-                    Session.userSessions.append(newSession)
+                    defaultUser.sessions.append(newSession)
+                    presentationMode.wrappedValue.dismiss()
                 }) {
                     Text ("Create Session")
                         .font(.subheadline)
                 }
                 .disabled(!ableToAppend())
+                
+                // Return Button
+                Button (action: {
+                    presentationMode.wrappedValue.dismiss()
+                }) {
+                    DefaultReturnButton()
+                }
+                .padding(.bottom)
                 
             } .animation(.spring())
         }
