@@ -6,6 +6,8 @@ struct ManageSessions: View {
     
     @ObservedObject var user = defaultUser
     
+    @State var play: Bool = false
+    
     var body: some View {
             
             VStack {
@@ -16,12 +18,26 @@ struct ManageSessions: View {
                     
                     ForEach (user.sessions) { session in
                         
-                        Text ("\(session.name)")
-                            .foregroundColor(.white)
-                            .fontWeight(.thin)
-                            .frame(width: 190, height: 28)
-                            .background(Color.gray)
-                            .cornerRadius(3)
+                        HStack {
+                            
+                            Button (action: {play.toggle()}, label: {
+                                Circle()
+                                    .foregroundColor(.green)
+                                    .frame(width: 28, height: 28)
+                            })
+                            
+                            Text ("\(session.name)")
+                                .foregroundColor(.white)
+                                .fontWeight(.thin)
+                                .frame(width: 190, height: 28)
+                                .background(Color.gray)
+                                .cornerRadius(3)
+                            
+                        }
+                        
+                        .fullScreenCover(isPresented: $play) {
+                            PreparationScreen(session: session)
+                        }
                         
                     }
                 }

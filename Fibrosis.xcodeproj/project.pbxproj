@@ -18,6 +18,7 @@
 		346C9D912976C493009D2479 /* General User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C9D902976C493009D2479 /* General User.swift */; };
 		346C9D952976C9DE009D2479 /* Play.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C9D942976C9DE009D2479 /* Play.swift */; };
 		346C9D992976CD5F009D2479 /* Views For Playing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C9D982976CD5E009D2479 /* Views For Playing.swift */; };
+		346C9D9B2976F31D009D2479 /* FinishScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C9D9A2976F31D009D2479 /* FinishScreen.swift */; };
 		349352B22974AFA4002046FB /* FibrosisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349352B12974AFA4002046FB /* FibrosisApp.swift */; };
 		349352B62974AFA7002046FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 349352B52974AFA7002046FB /* Assets.xcassets */; };
 		349352B92974AFA7002046FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 349352B82974AFA7002046FB /* Preview Assets.xcassets */; };
@@ -41,6 +42,7 @@
 		346C9D902976C493009D2479 /* General User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "General User.swift"; sourceTree = "<group>"; };
 		346C9D942976C9DE009D2479 /* Play.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play.swift; sourceTree = "<group>"; };
 		346C9D982976CD5E009D2479 /* Views For Playing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views For Playing.swift"; sourceTree = "<group>"; };
+		346C9D9A2976F31D009D2479 /* FinishScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishScreen.swift; sourceTree = "<group>"; };
 		349352AE2974AFA4002046FB /* Fibrosis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fibrosis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		349352B12974AFA4002046FB /* FibrosisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibrosisApp.swift; sourceTree = "<group>"; };
 		349352B52974AFA7002046FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				346C9D942976C9DE009D2479 /* Play.swift */,
+				346C9D9A2976F31D009D2479 /* FinishScreen.swift */,
 				346C9D982976CD5E009D2479 /* Views For Playing.swift */,
 			);
 			path = Play;
@@ -254,6 +257,7 @@
 				3407B78529759698005077AC /* Session.swift in Sources */,
 				3407B782297590C3005077AC /* Struct ExerciseTool.swift in Sources */,
 				349352C62974B3B8002046FB /* CustomColor Struct.swift in Sources */,
+				346C9D9B2976F31D009D2479 /* FinishScreen.swift in Sources */,
 				3445FD3129760F9600F9C46D /* Default ReturnButton.swift in Sources */,
 				346C9D952976C9DE009D2479 /* Play.swift in Sources */,
 				349352C32974B298002046FB /* AddSnackView.swift in Sources */,
